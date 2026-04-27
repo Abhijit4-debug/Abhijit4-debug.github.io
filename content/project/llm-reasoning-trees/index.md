@@ -1,5 +1,5 @@
 ---
-title: From Thoughts to Trees: Multi-Path Reasoning and Tool Integration in LLMs
+title: "From Thoughts to Trees: Multi-Path Reasoning and Tool Integration in LLMs"
 summary: Hybrid Tree-of-Thought and ReAct reasoning agent that improved small-model accuracy under tight compute budgets.
 date: 2025-11-01
 tags:

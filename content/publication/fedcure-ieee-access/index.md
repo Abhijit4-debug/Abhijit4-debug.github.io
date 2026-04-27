@@ -1,5 +1,5 @@
 ---
-title: FedCure: A Heterogeneity-Aware Personalized Federated Learning Framework for Intelligent Healthcare in IoMT
+title: "FedCure: A Heterogeneity-Aware Personalized Federated Learning Framework for Intelligent Healthcare in IoMT"
 authors:
   - admin
 date: "2024-01-01"

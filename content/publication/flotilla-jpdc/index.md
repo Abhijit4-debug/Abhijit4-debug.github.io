@@ -1,5 +1,5 @@
 ---
-title: Flotilla: A Scalable, Modular and Resilient Federated Learning Framework for Heterogeneous Resources
+title: "Flotilla: A Scalable, Modular and Resilient Federated Learning Framework for Heterogeneous Resources"
 authors:
   - Roopkatha Banerjee
   - admin
