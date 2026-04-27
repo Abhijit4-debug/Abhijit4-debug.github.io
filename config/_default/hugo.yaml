@@ -1,26 +1,12 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-title: Prince Modi # Website name
-baseURL: 'https://prince-modi.github.io/' # Website URL 
-
-############################
-## LANGUAGE
-############################
+title: Abhijit Chunduru
+baseURL: 'https://abhijit4-debug.github.io/'
 
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
-############################
-## PAGES
-############################
-
 cascade:
-  # Configure blog posts
   - _target:
       path: /post/**
     pager: true
@@ -29,10 +15,9 @@ cascade:
     show_related: true
     show_breadcrumb: true
     share: true
-
-############################
-## ADVANCED
-############################
+  - _target:
+      path: /project/**
+    show_breadcrumb: true
 
 enableGitInfo: false
 summaryLength: 30
@@ -54,6 +39,9 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
+caches:
+  images:
+    dir: :cacheDir/images
 timeout: 600000
 taxonomies:
   tag: tags

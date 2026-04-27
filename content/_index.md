@@ -1,14 +1,13 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2026-04-27
 type: landing
 
 sections:
   - block: about.biography
     id: about
     content:
-      title: Hi, I'm Prince!
+      title: Hi, I'm Abhijit!
       username: admin
 
   - block: resume-skills
@@ -25,168 +24,89 @@ sections:
     content:
       items:
         - title: Master of Science in Computer Science
-          icon_choice: "university"
-          id: ucsd
-          institution: University of California San Diego
-          date_start: 2025-09-22
-          date_end: 2027-06-01
+          icon_choice: university
+          id: umass
+          institution: University of Massachusetts Amherst
+          date_start: 2025-09-01
+          date_end: 2027-05-31
           description: |
-            Graduate student at UCSD, focusing on **Distributed Systems**
-            
-            **Relevant Courses:**
-            - *Graduate Operating Systems*
-            - *Computer Architecture*
-            - *LLM Systems Optimization*
+            Graduate student focusing on **Federated Learning, Generative Modeling, and Trustworthy AI**.
 
-            **Projects:**
-            - *System Measurement*: Developed a suite of micro-benchmarks to evaluate the Rockchip RK3588S SoC, utilizing ARMv8 cycle counters to measure CPU scheduling and OS primitive latencies with nanosecond precision.([Link](https://princemodi.me/post/system-measurement/))
- 
-        - title: Bachelor of Technology in Computer Engineering
-          icon_choice: "university"
-          id: guni
-          institution: Ganpat University - UVPCE
-          date_start: 2018-07-01
-          date_end: 2022-06-01
-          description: |
-            **GPA:** *3.96/4.00*
-            
-            **Achievements:**
-            - Academic scholarship for securing 2nd rank out of 60+ students
-            
             **Relevant Courses:**
-            - *Operating Systems*
-            - *Computer Networks*
-            - *Cloud Computing*
-            - *Big Data Analytics*
-            
-            **Projects:**
-            - *BitTorrent Client*: Built a peer-to-peer file-sharing client using Python's AsyncIO and BitTorrent protocol with a custom Bencode parser
-            - *GIST*: Developed a YouTube video summarizer using NLTK, BART model, SQLite, and Tkinter
+            - *Robotics*
+            - *Advanced Generative AI*
+            - *Advanced NLP*
+            - *Advanced ML*
+            - *Distributed Systems*
+
+        - title: Bachelor of Technology in Computer Science
+          icon_choice: university
+          id: vit
+          institution: Vellore Institute of Technology (VIT)
+          date_start: 2020-09-01
+          date_end: 2024-09-30
+          description: |
+            Undergraduate degree in Computer Science with focus on machine learning, distributed systems, and software engineering.
 
   - block: resume-exp
     title: Experience
     id: experience
     content:
       items:
-        - title: 'Research Collaborator (Remote)'
-          icon_choice: "university"
-          id: iisc2
-          company: Indian Institute of Science (IISc), Bangalore
-          company_url: ''
-          company_logo: ''
-          date_start: 2024-04-30
-          date_end: 2024-11-01
-          location: Bangalore
+        - title: Associate Software Engineer - Security Research Team
+          icon_choice: briefcase
+          id: iudx
+          company: Indian Urban Data Exchange, IISc Campus (IUDX-IISc)
+          date_start: 2024-10-01
+          date_end: 2025-07-31
+          location: Bengaluru, India
           description: |
-            - Continued voluntary collaboration with the DREAM:Lab to finalize research validation for the JPDC 2025 publication
-            - Authored the in-depth system architecture and scalability analysis for Flotilla, leading to its acceptance in the Journal of Parallel and Distributed Computing (JPDC)
-            - Orchestrated containerized deployments using custom Docker images across distributed clusters to validate system performance on 1000+ concurrent clients
-            
-        - title: 'Research Associate (DREAM:Lab)'
-          icon_choice: "university"
-          id: iisc
-          company: Indian Institute of Science (IISc), Bangalore
-          company_url: ''
-          company_logo: ''
-          date_start: 2023-01-01
-          date_end: 2024-04-30
-          location: Bangalore
+            - Architected confidential computing solutions using Multi-Party Computation, Differential Privacy, and AMD SEV-SNP TEEs with cryptographic remote attestation for healthcare federated learning deployments.
+            - Deployed Confidential Containers (Peer Pods) on Kubernetes with runtime attestation, enabling privacy-preserving ML across multi-cloud infrastructure while reducing setup time by 60% and attack surface by 85%.
+
+        - title: Federated Learning Research Intern
+          icon_choice: briefcase
+          id: dreamlab
+          company: Indian Institute of Science, DREAM:LAB
+          date_start: 2023-12-01
+          date_end: 2024-09-30
+          location: Bengaluru, India
           description: |
-            **Responsibilities include:**
-            - Built an asynchronous federated learning framework (Flotilla) in Python, optimized for edge hardware deployment
-            - Implemented server and client sides using MQTT and gRPC for efficient message passing and coordination in federated learning
-            - Designed a custom Redis-based state store with checkpointing to enable recovery from full server failures without data loss or disruption
-            - Integrated client selection and aggregation strategies from current research for performance, accuracy, and turnaround optimization
-            - Collaborated with PhD students under Prof. Manik Gupta (BITS Pilani) and Prof. Yogesh Simmhan (IISc) to ensure Flotilla's scalability and reliability
-            - Configured and managed an 80+ node edge cluster (Nvidia Jetsons, Raspberry Pis), supporting lab infrastructure and projects including Flotilla
-            
-            **Volunteering:**
-            - *Senior Student Volunteer*, Indian Institute of Science – IEEE/ACM CCGrid 2023: Co-organized a 300+ participant conference; coordinated 3 poster sessions and assisted keynote speakers and faculty
-            - *Student Volunteer*, IISc Open Day 2023: Coordinated presentation sessions for DREAM:Lab projects
-            
-        - title: Teaching Assistant, Data Engineering at Scale
-          icon_choice: "university"
-          company: Indian Institute of Science (IISc), Bangalore
-          company_url: ''
-          company_logo: ''
-          date_start: 2023-08-01
-          date_end: 2023-12-31
-          location: Bangalore
+            - Co-developed Flotilla, an in-house FL framework surpassing Flower, FedML, and OpenFL in scalability and reliability.
+            - Executed 90+ experiments on heterogeneous clusters (46 Raspberry Pis, 12 Nvidia Jetsons) benchmarking IID and non-IID performance.
+            - Scaled Flotilla to 1,024 AWS clients, achieving 55% faster performance than Flower by eliminating communication bottlenecks.
+            - Designed CPU and memory visualizations contributing to a publication in Elsevier JPDC.
+
+        - title: NLP Research Intern
+          icon_choice: briefcase
+          id: carelon
+          company: Carelon Global Solutions (Elevance Health)
+          date_start: 2023-05-01
+          date_end: 2023-09-30
+          location: Hyderabad, India
           description: |
-            **Responsibilities include:**
-            - Taught a graduate-level course to a class of 40+ students, comprising topics such as HDFS, Map-Reduce, Apache Spark
-            - Facilitated and led a 2-hour lab session per week, prepared and graded assignments, conducted one-on-one office hours, and conducted doubt-clearing sessions
-            
-        - title: Software Engineering Intern (Intellza)
-          id: intern
-          company: Sterlite Technologies Limited, Ahmedabad
-          company_url: ''
-          company_logo: ''
-          date_start: 2022-01-01
-          date_end: 2022-08-31
-          location: Ahmedabad
-          description: |
-            **Responsibilities include:**
-            - Developed Intellza, a unified data storage and analytics platform, alongside a cross-functional team
-            - Developed and integrated a module to maintain and track schema changes for MongoDB on Intellza using LiquiBase
-            - Created Docker images and optimized the existing images as per Docker's recommendations, reducing the image size to 35% and improving the build times of the project's CI/CD pipeline by 50%
+            - Engineered a Memory Module into ClinicalBERT, DistilBERT, RoBERTa, and Clinical-Longformer for sentiment analysis, achieving 90% accuracy.
+            - Transitioned centralized models to federated learning, improving accuracy by 2% and reducing training time by 30% with LoRA, P-Tuning, and Prompt Tuning.
 
   - block: collection
-    id: featured-publications
+    id: projects
     content:
-      title: Featured publications
+      title: Selected Projects
+      filters:
+        folders:
+          - project
+    design:
+      columns: '2'
+      view: card
+
+  - block: collection
+    id: publications
+    content:
+      title: Publications
       filters:
         folders:
           - publication
-        featured_only: true
     design:
       columns: '2'
       view: card
-
-  - block: collection
-    id: posts
-    content:
-      title: Recent posts
-      subtitle: ''
-      text: ''
-      count: 3
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      offset: 0
-      order: desc
-    design:
-      view: card
-      columns: '2'
-
-  - block: resume-hobbies
-    title: Hobbies
-    id: hobbies
-    content:
-      items:
-        - title: Reading
-          icon_choice: "book-open-reader"
-          description: "Currently reading: *A Wise Man's Fear* and *Thinking, Fast and Slow*"
-        - title: Tennis & Pickleball
-          icon_choice: "trophy"
-          description: "Just enjoy hitting the ball around and having a good time with friends"
-        - title: Formula 1
-          icon_choice: "flag-checkered"
-          description: "Following F1 races, team strategies, and technological advancements"
-        - title: Home Lab
-          icon_choice: "computer"
-          description: "Running PiHole and PFSense, experimenting with network setups"
-        - title: 3D Printing
-          icon_choice: "print"
-          description: "Designing and printing 3D models for personal projects or prototyping"
-        - title: Astronomy
-          icon_choice: "meteor"
-          description: "Stargazing and exploring celestial bodies, learning about the universe"
 ---

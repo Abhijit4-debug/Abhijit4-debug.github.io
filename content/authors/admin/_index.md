@@ -1,169 +1,120 @@
 ---
-# Display name
-title: Prince Modi
-
-# Name pronunciation (optional)
-name_pronunciation: 
-
-# Full name (for SEO)
-first_name: Prince Bhagirathbhai
-last_name: Modi
-
-# Status emoji
-status:
-  icon: 
-
-# Is this the primary user of the site?
+title: Abhijit Chunduru
+first_name: Abhijit
+last_name: Chunduru
 superuser: true
-
-# Role/position/tagline
 role: Master's Student
-
-# Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of California San Diego
-    url: https://cse.ucsd.edu/
+  - name: University of Massachusetts Amherst
+    url: https://www.cics.umass.edu/
+bio: ML Systems and Trustworthy AI at UMass Amherst
 
-# Short bio (displayed in user profile at end of posts)
-bio: Distributed Systems@UCSD
-
-# # Interests to show in About widget
-# interests:
-#   - Distributed Systems
-#   - Federated Learning
-#   - Computer Networks
-#   - Applied Machine Learning
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: 'Proficient'
+  - name: Proficient
     items:
       - name: Python
-        description: 'Used extensively in development of Flotilla and various personal projects'
-        icon: 'fa-brands fa-python'
-      - name: Docker
-        description: 'Used heavily across jobs and personal projects'
-        icon: 'fa-brands fa-docker'
-      - name: Linux
-        description: 'Daily use across work and personal setups (Arch BTW😝)'
-        icon: 'fa-brands fa-linux'
-      - name: NeoVim
-        description: 'Daily driver, with custom plugins developed for specific workflows'
-        icon: 'fa-solid fa-file-code'
-
-  - name: 'Intermediate'
-    items:
-      - name: gRPC
-        description: 'Integrated into a custom distributed framework using ProtoBuf definitions'
-        icon: 'fa-solid fa-diagram-project'
-      - name: MQTT
-        description: 'Used while building a custom distributed framework and homelab projects'
-        icon: 'fa-solid fa-diagram-project'
-      - name: Redis
-        description: 'Built a simplified version in Python to understand the internals'
-        icon: 'fa-solid fa-database'
-      - name: Git
-        description: 'Implemented a basic version in Python to understand internal mechanisms'
-        icon: 'fa-brands fa-git'
-
-  - name: 'Familiar'
-    items:
-      - name: Go
-        description: 'Explored through personal projects focused on distributed systems'
-        icon: 'fa-brands fa-golang'
+        description: Primary language across research projects, federated systems, and ML experiments
+        icon: fa-brands fa-python
       - name: PyTorch
-        description: 'Built CNNs, LSTMs, and custom dataloaders for a custom federated learning framework'
-        icon: 'fa-solid fa-brain'
-      - name: Lua
-        description: 'Used to write custom NeoVim plugins and enhance editor behavior'
-        icon: 'fa-solid fa-code'
-      - name: MongoDB
-        description: 'Used during an internship while working with NoSQL data models'
-        icon: 'fa-solid fa-database'
+        description: Built CNNs, Transformers, diffusion pipelines, and custom dataloaders for FL frameworks
+        icon: fa-solid fa-brain
+      - name: Kubernetes
+        description: Deployed Confidential Containers with runtime attestation across multi-cloud infrastructure
+        icon: fa-solid fa-dharmachakra
+      - name: Docker
+        description: Used heavily across research deployments and personal projects
+        icon: fa-brands fa-docker
+
+  - name: Intermediate
+    items:
+      - name: AMD SEV-SNP and SGX
+        description: Architected TEE-based federated learning deployments with cryptographic remote attestation
+        icon: fa-solid fa-shield-halved
+      - name: AWS
+        description: Scaled Flotilla to 1,024 clients and orchestrated large-scale FL experiments
+        icon: fa-brands fa-aws
+      - name: Hugging Face
+        description: Fine-tuned BERT, RoBERTa, and clinical language models with LoRA and prompt-based methods
+        icon: fa-solid fa-face-smile
+      - name: C++ and Bash
+        description: Systems scripting and automation for heterogeneous cluster deployments
+        icon: fa-solid fa-terminal
+
+  - name: Familiar
+    items:
+      - name: ROS
+        description: Explored through graduate robotics coursework at UMass Amherst
+        icon: fa-solid fa-robot
+      - name: SQL
+        description: Used for data management and experiment logging across research projects
+        icon: fa-solid fa-database
+      - name: scikit-learn and Pandas
+        description: Data preprocessing, baselines, and statistical analysis of federated learning results
+        icon: fa-solid fa-chart-line
+      - name: RLHF and ReAct
+        description: Applied in LLM reasoning and agentic framework experiments
+        icon: fa-solid fa-arrows-rotate
 
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:princebmodi@outlook.com'
+    link: mailto:schunduru@umass.edu
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/modi-prince/
-  - icon: graduation-cap 
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=nZAmHBcAAAAJ&hl=en
+    link: https://www.linkedin.com/in/abhijit-chunduru-71437b17a/
   - icon: github
     icon_pack: fab
-    link: https://github.com/prince-modi
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV.pdf
-  - icon: file-lines
+    link: https://github.com/Abhijit4-debug
+  - icon: graduation-cap
     icon_pack: fas
-    link: uploads/resume.pdf
+    link: https://scholar.google.com/citations?user=oOMj49IAAAAJ&hl=en&oi=ao
 
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I'm a first-year Master's student in the Department of Computer Science and Engineering at UC San Diego, specializing in Distributed Systems. I have hands-on experience working on scalable and resilient systems, including development of [*Flotilla*](https://github.com/dream-lab/flotilla/), a modular federated learning framework, during my time at the Indian Institute of Science. While working on Flotilla, I became especially interested in the challenges of fault tolerance, consistency, and recovery in distributed systems. My broader interests span distributed computing, datacenter systems, and operating systems.
+I am a first-year Master's student in Computer Science at UMass Amherst, with a focus on **ML systems and trustworthy AI**. I have hands-on experience building scalable federated learning systems, including [*Flotilla*](https://github.com/dream-lab/flotilla/), a modular and resilient federated learning framework developed during my time at the Indian Institute of Science, and *FedProj*, an algorithm addressing catastrophic forgetting under non-IID data distributions. Working on these systems made me deeply interested in privacy-preserving deployment, heterogeneous infrastructure, and making federated systems production-ready using Trusted Execution Environments and Confidential Containers.
+
+I am currently learning **CUDA** and **large-scale distributed training across multi-GPU setups**. My broader interests span Generative Modeling, Reinforcement Learning, Robotics, and AI Alignment.
 
 <div class="container">
   <div class="row">
-    <!-- Experience Column -->
     <div class="col-12 col-md-4 mb-4">
-      <a href=#experience><h3>Experience</h3></a>
+      <h3><a href="#experience">Experience</a></h3>
       <ul class="fa-ul">
         <li>
-          <a href="#iisc"><span class="fa-li"><i class="fas fa-briefcase"></i></span>
-          Research Associate</a><br/>
-          <span style="font-size: 0.85em; color: #666;">IISc (2023–2024)</span>
+          <a href="#iudx"><span class="fa-li"><i class="fas fa-briefcase"></i></span>Associate Software Engineer</a><br/>
+          <span style="font-size: 0.85em; color: #666;">IUDX-IISc (2024-2025)</span>
         </li>
         <li>
-          <a href="#intern"><span class="fa-li"><i class="fas fa-briefcase"></i></span>
-          Software Eng. Intern</a><br/>
-          <span style="font-size: 0.85em; color: #666;">Sterlite Tech Ltd. (2022)</span> 
+          <a href="#dreamlab"><span class="fa-li"><i class="fas fa-briefcase"></i></span>FL Research Intern</a><br/>
+          <span style="font-size: 0.85em; color: #666;">DREAM:LAB, IISc (2023-2024)</span>
+        </li>
+        <li>
+          <a href="#carelon"><span class="fa-li"><i class="fas fa-briefcase"></i></span>NLP Research Intern</a><br/>
+          <span style="font-size: 0.85em; color: #666;">Carelon (2023)</span>
         </li>
       </ul>
     </div>
-    <!-- Education Column -->
     <div class="col-12 col-md-4 mb-4">
-      <a href=#education><h3>Education</h3></a>
+      <h3><a href="#education">Education</a></h3>
       <ul class="fa-ul">
         <li>
-          <a href="#ucsd"><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
-          MSCS, UCSD</a><br/>
-          <span style="font-size: 0.85em; color: #666;">(2025–2027)</span>
+          <a href="#umass"><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MS CS, UMass Amherst</a><br/>
+          <span style="font-size: 0.85em; color: #666;">2025-Present</span>
         </li>
         <li>
-          <a href="#guni"><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
-          B.Tech CE, UVPCE</a><br/>
-          <span style="font-size: 0.85em; color: #666;">(2018–2022)</span>
+          <a href="#vit"><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BTech CS, VIT</a><br/>
+          <span style="font-size: 0.85em; color: #666;">2020-2024</span>
         </li>
       </ul>
-</div>
-    <!-- Interest Column -->
+    </div>
     <div class="col-12 col-md-4 mb-4">
-      <a href=#hobbies><h3>Interests</h3></a>
+      <h3>Interests</h3>
       <ul class="fa-ul">
-        <li class="mb-3">
-          <a href="/tag/distributed-systems"><span class="fa-li"><i class="fas fa-server"></i></span>
-          Distributed Systems</a>
-        </li>
-        <li class="mb-3">
-          <a href="/tag/cloud-computing"><span class="fa-li"><i class="fas fa-cloud"></i></span>
-          Datacenter Systems</a>
-        </li>
-        <li class="mb-3">
-          <a href="/tag/operating-systems"><span class="fa-li"><i class="fas fa-computer"></i></span>
-          Operating Systems</a>
-        </li>        
+        <li class="mb-3"><span class="fa-li"><i class="fas fa-shield-halved"></i></span>Federated Learning and Secure ML</li>
+        <li class="mb-3"><span class="fa-li"><i class="fas fa-wave-square"></i></span>Diffusion Models and World Models</li>
+        <li class="mb-3"><span class="fa-li"><i class="fas fa-robot"></i></span>RL, Robotics, and AI Alignment</li>
       </ul>
     </div>
   </div>
 </div>
-
-
-
-{style="text-align: justify;"}
