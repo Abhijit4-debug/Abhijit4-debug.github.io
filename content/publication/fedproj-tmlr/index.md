@@ -2,6 +2,10 @@
 title: Avoid Forgetting by Preserving Global Knowledge Gradients in Federated Learning with Non-IID Data
 authors:
   - admin
+  - Majid Morafah
+  - Mahdi Morafah
+  - Vishnu Pandi Chellapandi
+  - Ang Li
 date: "2025-01-01"
 publication_types: ["article-journal"]
 publication: "*Transactions on Machine Learning Research* (under review)"
