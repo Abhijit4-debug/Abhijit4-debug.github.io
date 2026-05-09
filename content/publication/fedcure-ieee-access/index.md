@@ -1,7 +1,11 @@
 ---
 title: "FedCure: A Heterogeneity-Aware Personalized Federated Learning Framework for Intelligent Healthcare in IoMT"
 authors:
+  - Sachin D. N
+  - Annappa B
+  - Saumya Hegde
   - admin
+  - Sateesh Ambesange
 date: "2024-01-01"
 publication_types: ["article-journal"]
 publication: "*IEEE Access*"
