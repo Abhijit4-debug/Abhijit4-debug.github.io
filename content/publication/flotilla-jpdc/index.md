@@ -2,8 +2,9 @@
 title: "Flotilla: A Scalable, Modular and Resilient Federated Learning Framework for Heterogeneous Resources"
 authors:
   - Roopkatha Banerjee
-  - admin
+  - Prince Modi
   - Jinal Vyas
+  - admin
   - Tejus Chandrashekar
   - Harsha Varun Marisetty
   - Manik Gupta
