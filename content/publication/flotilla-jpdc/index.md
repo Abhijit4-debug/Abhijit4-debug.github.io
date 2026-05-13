@@ -9,7 +9,7 @@ authors:
   - Harsha Varun Marisetty
   - Manik Gupta
   - Yogesh Simmhan
-date: "2025-05-14"
+date: "2025-09-01"
 doi: "10.1016/j.jpdc.2025.105103"
 publication_types: ["article-journal"]
 publication: "*Journal of Parallel and Distributed Computing*"
