@@ -35,6 +35,7 @@ sections:
             **Relevant Courses:**
             - *Robotics*
             - *Advanced Generative AI*
+            - *AI Alignment*
             - *Advanced NLP*
             - *Advanced ML*
             - *Distributed Systems*
@@ -53,6 +54,18 @@ sections:
     id: experience
     content:
       items:
+        - title: Graduate Research Assistant
+          icon_choice: briefcase
+          id: argonne
+          company: Argonne National Laboratory
+          date_start: 2026-02-01
+          date_end: ""
+          location: Remote
+          description: |
+            - Engineered a Kubernetes-native provisioning system on NERSC Spin for APPFL, a DOE federated learning platform used by ANL, LLNL, and LBNL, dynamically spinning up org-scoped, oauth2-proxy-authenticated Jupyter environments with Keycloak SSO and an invite-based FastAPI/PostgreSQL onboarding pipeline.
+            - Built and open-sourced HiveWatch, a framework-agnostic observability toolkit for distributed ML training with real-time metric dashboards, geographic client visualization, and experiment tracking via WandB and MLflow, adopted across APPFL.
+            - Engineered federated LoRA fine-tuning on the Evo-2 model pipeline for genomic AI training across institutions, reducing cross-site data transfer to 20 MB (down 74%) on Polaris/NERSC HPC.
+
         - title: Associate Software Engineer - Security Research Team
           icon_choice: briefcase
           id: iudx

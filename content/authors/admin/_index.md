@@ -16,10 +16,13 @@ skills:
         description: Primary language across research projects, federated systems, and ML experiments
         icon: fa-brands fa-python
       - name: PyTorch
-        description: Built CNNs, Transformers, diffusion pipelines, and custom dataloaders for FL frameworks
+        description: Built CNNs, Transformers, diffusion pipelines, flow-matching world models, and custom dataloaders for FL frameworks
         icon: fa-solid fa-brain
+      - name: CUDA and Multi-GPU Distributed Training
+        description: Distributed training and GPU programming for large-scale ML on NERSC/Polaris HPC
+        icon: fa-solid fa-microchip
       - name: Kubernetes
-        description: Deployed Confidential Containers with runtime attestation across multi-cloud infrastructure
+        description: Deployed Confidential Containers and Kubernetes-native provisioning systems (APPFL on NERSC Spin) with runtime attestation
         icon: fa-solid fa-dharmachakra
       - name: Docker
         description: Used heavily across research deployments and personal projects
@@ -33,6 +36,9 @@ skills:
       - name: AWS
         description: Scaled Flotilla to 1,024 clients and orchestrated large-scale FL experiments
         icon: fa-brands fa-aws
+      - name: ML Infra (vLLM, Ray, MLflow, W&B)
+        description: Experiment tracking, observability (HiveWatch), and distributed training tooling across APPFL
+        icon: fa-solid fa-server
       - name: Hugging Face
         description: Fine-tuned BERT, RoBERTa, and clinical language models with LoRA and prompt-based methods
         icon: fa-solid fa-face-smile
@@ -42,8 +48,8 @@ skills:
 
   - name: Familiar
     items:
-      - name: ROS
-        description: Explored through graduate robotics coursework at UMass Amherst
+      - name: ROS and Gazebo
+        description: Deployed a full ROS autonomy stack (SLAM, AMCL, move_base) on real hardware for an autonomous delivery robot
         icon: fa-solid fa-robot
       - name: SQL
         description: Used for data management and experiment logging across research projects
@@ -72,15 +78,19 @@ social:
 highlight_name: true
 ---
 
-I am a first-year Master's student in Computer Science at UMass Amherst, with a focus on **ML systems and trustworthy AI**. I have hands-on experience building scalable federated learning systems, including [*Flotilla*](https://github.com/dream-lab/flotilla/), a modular and resilient federated learning framework developed during my time at the Indian Institute of Science, and *FedProj*, an algorithm addressing catastrophic forgetting under non-IID data distributions. Working on these systems made me deeply interested in privacy-preserving deployment, heterogeneous infrastructure, and making federated systems production-ready using Trusted Execution Environments and Confidential Containers.
+I am a Master's student in Computer Science at UMass Amherst and a Graduate Research Assistant at **Argonne National Laboratory**, with a focus on **ML systems and trustworthy AI**. At Argonne, I build infrastructure for [APPFL](https://appfl.ai/), a DOE federated learning platform used across ANL, LLNL, and LBNL, including Kubernetes-native provisioning on NERSC Spin and *HiveWatch*, an open-source observability toolkit for distributed ML training. I also have hands-on experience building scalable federated learning systems, including [*Flotilla*](https://github.com/dream-lab/flotilla/), a modular and resilient federated learning framework developed during my time at the Indian Institute of Science, and *FedProj*, a gradient-projection algorithm addressing catastrophic forgetting under non-IID data, published in TMLR.
 
-I am currently learning **CUDA** and **large-scale distributed training across multi-GPU setups**. My broader interests span Generative Modeling, Reinforcement Learning, Robotics, and AI Alignment.
+I work daily with **CUDA** and **multi-GPU distributed training** on NERSC/Polaris HPC, and I'm increasingly focused on flow-matching world models and robotics. My broader interests span Generative Modeling, Reinforcement Learning, Robotics, and AI Alignment.
 
 <div class="container">
   <div class="row">
     <div class="col-12 col-md-4 mb-4">
       <h3><a href="#experience">Experience</a></h3>
       <ul class="fa-ul">
+        <li>
+          <a href="#argonne"><span class="fa-li"><i class="fas fa-briefcase"></i></span>Graduate Research Assistant</a><br/>
+          <span style="font-size: 0.85em; color: #666;">Argonne National Laboratory (2026-Present)</span>
+        </li>
         <li>
           <a href="#iudx"><span class="fa-li"><i class="fas fa-briefcase"></i></span>Associate Software Engineer</a><br/>
           <span style="font-size: 0.85em; color: #666;">IUDX-IISc (2024-2025)</span>

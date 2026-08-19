@@ -1,6 +1,6 @@
 ---
-title: Temporally Invertible Latent World Models via Flow Matching
-summary: Built a JEPA-style flow-matching world model on DMControl Walker-Walk, reaching 0.951 mean R2 across 24 state dimensions.
+title: Liouville-Regularized Flow-Matching World Models
+summary: Proposed Liouville and Jacobian Frobenius pointwise regularizers for flow-matching latent world models, cutting long-horizon latent drift by 17 orders of magnitude on DMControl Walker-Walk.
 date: 2026-03-01
 tags:
   - world models
@@ -8,6 +8,6 @@ tags:
   - reinforcement learning
 ---
 
-- Introduced temporal cycle consistency in ODE dynamics.
-- Improved H16 cosine similarity from 0.247 to 0.87.
-- Enabled reverse goal-conditioned planning with 67% success versus 0% baseline.
+- Proposed Liouville (squared divergence) and Jacobian Frobenius pointwise regularizers for flow-matching latent world models, reducing long-horizon latent drift by 17 orders of magnitude at H=128 on DMControl Walker-Walk versus an unregularized baseline.
+- Formally proved cycle-consistency is structurally vacuous for rectified flows in the autonomous limit.
+- Confirmed empirically that Liouville variants achieve cycle-error floors 3 orders of magnitude lower than naive cycle regularization across all solver tolerances.

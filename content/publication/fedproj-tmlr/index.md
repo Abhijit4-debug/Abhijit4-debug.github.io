@@ -1,5 +1,5 @@
 ---
-title: Avoid Forgetting by Preserving Global Knowledge Gradients in Federated Learning with Non-IID Data
+title: Towards Preventing Global Knowledge Forgetting in Federated Learning with Non-IID Data
 authors:
   - admin
   - Majid Morafah
@@ -8,7 +8,7 @@ authors:
   - Ang Li
 date: "2026-05-01"
 publication_types: ["article-journal"]
-publication: "*Transactions on Machine Learning Research* (under review)"
+publication: "*Transactions on Machine Learning Research*"
 publication_short: "TMLR"
 abstract: >
   Co-authored with collaborators from UCSD and Purdue, this work addresses catastrophic forgetting in federated learning through gradient-projection constraints.
