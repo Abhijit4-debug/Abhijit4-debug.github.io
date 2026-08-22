@@ -62,9 +62,20 @@ sections:
           date_end: ""
           location: Remote
           description: |
-            - Engineered a Kubernetes-native provisioning system on NERSC Spin for APPFL, a DOE federated learning platform used by ANL, LLNL, and LBNL, dynamically spinning up org-scoped, oauth2-proxy-authenticated Jupyter environments with Keycloak SSO and an invite-based FastAPI/PostgreSQL onboarding pipeline.
-            - Built and open-sourced HiveWatch, a framework-agnostic observability toolkit for distributed ML training with real-time metric dashboards, geographic client visualization, and experiment tracking via WandB and MLflow, adopted across APPFL.
+            - Engineered a Kubernetes-native provisioning system on NERSC Spin for [APPFL](https://github.com/APPFL/APPFL), a DOE federated learning platform used by ANL, LLNL, and LBNL, dynamically spinning up org-scoped, oauth2-proxy-authenticated Jupyter environments with Keycloak SSO and an invite-based FastAPI/PostgreSQL onboarding pipeline.
+            - Built and open-sourced [HiveWatch](https://github.com/APPFL/hivewatch/), a framework-agnostic observability toolkit for distributed ML training with real-time metric dashboards, geographic client visualization, and experiment tracking via WandB and MLflow, adopted across APPFL.
             - Engineered federated LoRA fine-tuning on the Evo-2 model pipeline for genomic AI training across institutions, reducing cross-site data transfer to 20 MB (down 74%) on Polaris/NERSC HPC.
+
+        - title: Independent Research Collaborator
+          icon_choice: briefcase
+          id: fedproj
+          company: "Mentors: Dr. Mahdi Morafah (UCSD), Dr. Vishnu Pandi (Purdue)"
+          date_start: 2024-12-01
+          date_end: 2025-09-30
+          location: Remote
+          description: |
+            - Designed and implemented [FedProj](https://github.com/Abhijit4-debug/FedProj_TMLR), a gradient-projection algorithm for federated learning that prevents catastrophic forgetting on non-IID data, achieving 2–9% accuracy gains over state-of-the-art FL baselines across 100+ clients.
+            - Orchestrated 70+ large-scale training runs across CV (CIFAR-10/100, CINIC-10) and NLP (MNLI, SST-2, MARC) benchmarks; work published in [TMLR](https://openreview.net/forum?id=lhTWPh3Tjm).
 
         - title: Associate Software Engineer - Security Research Team
           icon_choice: briefcase
