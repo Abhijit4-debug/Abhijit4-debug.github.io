@@ -78,7 +78,7 @@ social:
 highlight_name: true
 ---
 
-I'm a Master's student in Computer Science at UMass Amherst and a Graduate Research Assistant at **Argonne National Laboratory**, working on federated learning systems and ML infrastructure for [APPFL](https://github.com/APPFL/APPFL), a DOE federated learning platform used across ANL, LLNL, and LBNL. There, I built and open-sourced [HiveWatch](https://github.com/APPFL/hivewatch/), an observability toolkit for distributed ML training, and engineered the platform's Kubernetes-native provisioning system on NERSC Spin.
+I'm a Master's student in Computer Science at UMass Amherst and a Graduate Research Assistant at **Argonne National Laboratory**, working on federated learning systems and ML infrastructure for [APPFL](https://github.com/APPFL/APPFL), a DOE federated learning platform. There, I built and open-sourced [HiveWatch](https://github.com/APPFL/hivewatch/), an observability toolkit for distributed ML training, and engineered the platform's Kubernetes-native provisioning system on NERSC Spin.
 
 Before that, I worked on scalable federated learning systems, including [Flotilla](https://github.com/dream-lab/flotilla/), a modular and resilient framework I helped develop at the Indian Institute of Science, and [FedProj](https://github.com/Abhijit4-debug/FedProj_TMLR), an algorithm addressing catastrophic forgetting under non-IID data, published in TMLR. Working on these systems got me interested in the challenges of heterogeneous infrastructure, privacy-preserving deployment, and making federated systems production-ready using trusted execution environments. My broader interests span distributed systems, generative modeling, and robotics.
 
