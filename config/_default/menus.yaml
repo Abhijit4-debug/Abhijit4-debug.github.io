@@ -1,0 +1,22 @@
+main:
+  - name: Home
+    url: '#about'
+    weight: 10
+  - name: Skills
+    url: '#skills'
+    weight: 20
+  - name: Education
+    url: '#education'
+    weight: 30
+  - name: Experience
+    url: '#experience'
+    weight: 40
+  - name: Projects
+    url: '#projects'
+    weight: 50
+  - name: Publications
+    url: '#publications'
+    weight: 60
+  - name: Awards
+    url: '#awards'
+    weight: 45
